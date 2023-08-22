@@ -1,0 +1,88 @@
+body {
+    margin: 10% 5% auto;
+    font-size: 16px;
+    background-color: black;
+}
+
+.images {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 1500px) {
+    .images {
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+.images img {
+    width: 98%;
+    margin: 0.5vw 0;
+}
+
+.description {
+    display: flex;
+    width: 98%;
+    height: 3em;
+    color: antiquewhite;
+    font-size: 1.1em;
+}
+
+.description p {
+    color: black;
+}
+
+.description:hover {
+    color: antiquewhite;
+    background-color: antiquewhite;
+}
+
+.description:hover p {
+    margin: 0;
+    position: absolute;
+    color: black;
+    text-decoration-line: underline;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#header {
+    font-size: 5vw;
+    color: antiquewhite;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+}
+
+.navbar_menu li {
+    font-size: 2.7vw;
+    padding: 4vw 0 2vw;
+}
+
+.links {
+    color: antiquewhite;
+    text-decoration-line: none;
+    padding: 4vw 4vw 1vw;
+}
+
+.links:hover {
+    text-decoration-line: underline;
+    color: black;
+    background-color: antiquewhite;
+}
