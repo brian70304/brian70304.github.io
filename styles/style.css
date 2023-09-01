@@ -33,14 +33,14 @@ body {
 }
 
 .artistsoon {
-    color: rgb(2, 128, 2);
+    color: rgb(0, 0, 0);
     margin: 10% 0;
     font-family: 'Tulpen One', cursive;
-    font-size: 3vw;
+    font-size: 2vw;
     height: 100%;
     position: absolute;
-    top: 50%;
-    left: 25%;
+    top: 45%;
+    left: 45%;
     transform: translate(-50%, -50%);
     writing-mode: vertical-rl;
     text-orientation: upright;
